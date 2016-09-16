@@ -1,1 +1,80 @@
+body {
+	width: 100%;
+	display: inline-block;
+	margin: 0px;
+	position: fixed;
+}
 
+nav {
+	position: fixed;
+	background-color: grey;
+	padding-left: 60px;
+	padding-right: 60px;
+	width: 100%;
+	height: 70px;
+}
+
+.cat_logo {
+	border-radius: 100%;
+	border: 1px solid black;
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	margin-top: 5px;
+}
+
+.top_links {
+	position: relative;
+	color: purple;
+}
+
+ul {
+	list-style: none;
+	padding-left: 100px;
+	margin-top: 25px;
+}
+
+li {
+	display: inline;
+
+}
+
+li:after {
+	content: " | ";
+}
+
+
+div {
+	display: block;
+	position: relative;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px dotted green;
+	height: 300px;
+	width: 600px;
+}
+
+.spacecat {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	margin-left: -100px;
+	margin-top: -100px;
+}
+
+.spacedog {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	margin-left: 450px;
+	margin-top: 200px;
+}
+
+html { 
+  background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
